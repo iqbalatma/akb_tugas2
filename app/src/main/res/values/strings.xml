@@ -21,4 +21,22 @@
     <string name="verify_verify_account">Verify your Account</string>
     <string name="verify_resend">doesn\'t get the code? Resend</string>
     <string name="verify_we_have_send">We have send verification code to yout email</string>
+
+
+    <string name="register_register">Register</string>
+    <string name="register_agree">Agree with Term and Conditions</string>
+    <string name="register_username">Username</string>
+    <string name="register_email">Email</string>
+    <string name="register_phone">Phone Number</string>
+    <string name="register_male">Male</string>
+    <string name="register_female">Female</string>
+    <string name="register_password">Password</string>
+    <string name="register_retype_password">Retype Password</string>
+    <string name="register_home_address">Home Address</string>
+    <string name="register_location">Default Location</string>
+    <string name="register_personal">Personal</string>
+    <string name="register_org">Organization</string>
+
+
+
 </resources>
