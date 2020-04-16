@@ -17,4 +17,8 @@
 
 
     <string name="verify_send">Send</string>
+    <string name="verify_enter_code">enter verification code here...</string>
+    <string name="verify_verify_account">Verify your Account</string>
+    <string name="verify_resend">doesn\'t get the code? Resend</string>
+    <string name="verify_we_have_send">We have send verification code to yout email</string>
 </resources>
