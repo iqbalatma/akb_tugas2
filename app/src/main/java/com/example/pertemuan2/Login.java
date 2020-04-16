@@ -14,7 +14,7 @@ public class Login extends AppCompatActivity {
     Tugas   : Tugas 2
 
     Pengerjaan
-    Tanggal 16 April Jam 11.22
+    Tanggal 16 April
 */
 
     @Override

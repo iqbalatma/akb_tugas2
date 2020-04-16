@@ -1,9 +1,20 @@
 <resources>
     <string name="app_name">Pertemuan2</string>
+
+
     <string name="login_username">Username</string>
     <string name="login_password">Password</string>
     <string name="login_login">Login</string>
     <string name="login_or">OR</string>
     <string name="login_doesnt">doesn\'t have account ? Register</string>
     <string name="login_connect_facebook">Connect With Facebook</string>
+
+
+    <string name="almost_verify">Verify</string>
+    <string name="almost_almost_there">Almost There</string>
+    <string name="almost_message">Thankyou for registering with us. One more\n
+    step, you need to check your email\n to active yout account</string>
+
+
+    <string name="verify_send">Send</string>
 </resources>
