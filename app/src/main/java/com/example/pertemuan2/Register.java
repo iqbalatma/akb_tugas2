@@ -2,7 +2,9 @@ package com.example.pertemuan2;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
 
 public class Register extends AppCompatActivity {
     /*
@@ -13,11 +15,16 @@ public class Register extends AppCompatActivity {
         Tugas   : Tugas 2
 
         Pengerjaan
-        Tanggal 17 April
+        Tanggal 17 April Membuat Tampilan layout, logic pindah activity
     */
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_register);
+    }
+
+    public void almost(View v){
+        Intent almost = new Intent(Register.this, Almost_There.class);
+        startActivity(almost);
     }
 }

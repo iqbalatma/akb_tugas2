@@ -13,7 +13,7 @@ public class Verify extends AppCompatActivity {
         Tugas   : Tugas 2
 
         Pengerjaan
-        Tanggal 16 April
+        Tanggal 16 April Membuat Tampilan layout
     */
 
     @Override

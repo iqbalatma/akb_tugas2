@@ -14,6 +14,7 @@
         android:background="@drawable/button_verify"
         android:text="@string/almost_verify"
         android:textColor="@color/colorBackground"
+        android:onClick="verify"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.494"
