@@ -13,6 +13,7 @@
         android:layout_height="55dp"
         android:background="@drawable/button_send"
         android:text="@string/verify_send"
+        android:onClick="home"
         android:textColor="@color/colorBackground"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"

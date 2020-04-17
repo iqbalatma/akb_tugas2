@@ -27,4 +27,9 @@ public class Register extends AppCompatActivity {
         Intent almost = new Intent(Register.this, Almost_There.class);
         startActivity(almost);
     }
+
+    public void login(View v){
+        Intent login = new Intent(Register.this, Login.class);
+        startActivity(login);
+    }
 }

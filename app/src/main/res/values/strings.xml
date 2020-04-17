@@ -38,6 +38,23 @@
     <string name="register_personal">Personal</string>
     <string name="register_org">Organization</string>
 
+    <string name="home_nama">Ahmad Hartaji</string>
+    <string name="home_blood">Blood Type :</string>
+    <string name="home_type">B</string>
+    <string name="home_give">Blood Give</string>
+    <string name="home_received">Blood Received</string>
+    <string name="home_thanks">Thanks</string>
+    <string name="home_75">75</string>
+    <string name="home_100">100</string>
+    <string name="home_330">330</string>
+    <string name="home_search">Search Donor</string>
+    <string name="home_search_detail">Search donor near you</string>
+    <string name="home_blood_needed">Blood Needed</string>
+    <string name="home_blood_needed_detail">4 Users need blood</string>
+    <string name="home_message">Message</string>
+    <string name="home_message_detail">5 New Messages</string>
+    <string name="home_history">Dono History</string>
+    <string name="home_history_detail">5 Give, 2 Received</string>
     <string-array name="golongan_darah">
         <item>Blood Type</item>
         <item>O</item>
@@ -58,7 +75,6 @@
         <item>Backend Developer</item>
         <item>Android Developer</item>
     </string-array>
-
 
 
 </resources>

@@ -7,91 +7,6 @@
     android:background="@color/colorBackgroundInvite"
     tools:context=".Register">
 
-    <Spinner
-        android:id="@+id/spinner2"
-        android:layout_width="330dp"
-        android:layout_height="34dp"
-        android:entries="@array/job"
-        android:spinnerMode="dropdown"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.493"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.645" />
-
-    <EditText
-        android:id="@+id/editText4"
-        android:layout_width="330dp"
-        android:layout_height="39dp"
-        android:ems="10"
-        android:hint="@string/register_phone"
-        android:inputType="textPersonName"
-        android:textSize="14sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.493"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.234" />
-
-    <RadioButton
-        android:id="@+id/radioButton"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/register_male"
-        android:textColor="@color/colorFontDesc"
-        app:buttonTint="@color/colorLightBlue"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.209"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.3" />
-
-    <EditText
-        android:id="@+id/editText10"
-        android:layout_width="330dp"
-        android:layout_height="39dp"
-        android:ems="10"
-        android:hint="@string/register_password"
-        android:inputType="textPassword"
-        android:textSize="14sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.493"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.442" />
-
-    <Spinner
-        android:id="@+id/spinner"
-        android:layout_width="148dp"
-        android:layout_height="27dp"
-        android:entries="@array/reshus"
-        android:spinnerMode="dropdown"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.844"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.366" />
-
-    <EditText
-        android:id="@+id/editText9"
-        android:layout_width="330dp"
-        android:layout_height="39dp"
-        android:ems="10"
-        android:hint="@string/register_retype_password"
-        android:inputType="textPassword"
-        android:textSize="14sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.493"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.498" />
-
     <EditText
         android:id="@+id/editText5"
         android:layout_width="330dp"
@@ -122,18 +37,19 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.18" />
 
-    <Spinner
-        android:id="@+id/spinner3"
-        android:layout_width="148dp"
-        android:layout_height="27dp"
-        android:entries="@array/golongan_darah"
-        android:spinnerMode="dropdown"
+    <RadioButton
+        android:id="@+id/radioButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/register_male"
+        android:textColor="@color/colorFontDesc"
+        app:buttonTint="@color/colorLightBlue"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.152"
+        app:layout_constraintHorizontal_bias="0.209"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.367" />
+        app:layout_constraintVertical_bias="0.3" />
 
     <RadioButton
         android:id="@+id/radioButton2"
@@ -148,6 +64,75 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.3" />
+
+    <Spinner
+        android:id="@+id/spinner3"
+        android:layout_width="148dp"
+        android:layout_height="27dp"
+        android:entries="@array/golongan_darah"
+        android:spinnerMode="dropdown"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.152"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.367" />
+
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_width="148dp"
+        android:layout_height="27dp"
+        android:entries="@array/reshus"
+        android:spinnerMode="dropdown"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.844"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.366" />
+
+    <EditText
+        android:id="@+id/editText10"
+        android:layout_width="330dp"
+        android:layout_height="39dp"
+        android:ems="10"
+        android:hint="@string/register_password"
+        android:inputType="textPassword"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.493"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.442" />
+
+    <EditText
+        android:id="@+id/editText9"
+        android:layout_width="330dp"
+        android:layout_height="39dp"
+        android:ems="10"
+        android:hint="@string/register_retype_password"
+        android:inputType="textPassword"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.493"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.498" />
+
+    <Spinner
+        android:id="@+id/spinner2"
+        android:layout_width="330dp"
+        android:layout_height="34dp"
+        android:entries="@array/job"
+        android:spinnerMode="dropdown"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.493"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.645" />
 
     <Button
         android:id="@+id/button5"
@@ -253,6 +238,8 @@
         android:id="@+id/imageView3"
         android:layout_width="53dp"
         android:layout_height="32dp"
+        android:onClick="login"
+        android:clickable="true"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
@@ -285,6 +272,33 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.079" />
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="330dp"
+        android:layout_height="37dp"
+        android:ems="10"
+        android:hint="@string/register_phone"
+        android:inputType="phone"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.493"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.233" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="53dp"
+        android:layout_height="38dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.924"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.78"
+        app:srcCompat="@drawable/ic_blood_needed_location" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
