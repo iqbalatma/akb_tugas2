@@ -42,6 +42,7 @@
         android:layout_height="wrap_content"
         android:text="@string/almost_message"
         android:textAlignment="center"
+        android:gravity="center"
         android:textColor="@color/colorBackgroundInvite"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
