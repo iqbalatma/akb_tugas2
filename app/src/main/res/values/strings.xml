@@ -6,8 +6,9 @@
     <string name="login_password">Password</string>
     <string name="login_login">Login</string>
     <string name="login_or">OR</string>
-    <string name="login_doesnt">doesn\'t have account ? Register</string>
+    <string name="login_doesnt">doesn\'t have account ?</string>
     <string name="login_connect_facebook">Connect With Facebook</string>
+    <string name="login_register">Register</string>
 
 
     <string name="almost_verify">Verify</string>
@@ -36,6 +37,27 @@
     <string name="register_location">Default Location</string>
     <string name="register_personal">Personal</string>
     <string name="register_org">Organization</string>
+
+    <string-array name="golongan_darah">
+        <item>Blood Type</item>
+        <item>O</item>
+        <item>A</item>
+        <item>B</item>
+        <item>AB</item>
+    </string-array>
+
+    <string-array name="reshus">
+        <item>Reshus</item>
+        <item>Positive</item>
+        <item>Negative</item>
+    </string-array>
+
+    <string-array name="job">
+        <item>Job</item>
+        <item>UI/UX Deisgner</item>
+        <item>Backend Developer</item>
+        <item>Android Developer</item>
+    </string-array>
 
 
 
