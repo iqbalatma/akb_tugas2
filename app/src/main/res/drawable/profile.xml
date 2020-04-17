@@ -13,7 +13,8 @@
         android:height="150dp"
         android:width="150dp"/>
     <solid
-        android:color="@color/colorLightBlue"/>
+        android:color="@color/colorLightBlue" />
+
     <stroke
         android:color="@color/colorBackground"
         android:width="5dp"/>

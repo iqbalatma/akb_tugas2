@@ -19,7 +19,7 @@ public class Register extends AppCompatActivity {
         Tugas   : Tugas 2
 
         Pengerjaan
-        Tanggal 17 April Membuat Tampilan layout, logic pindah activity
+        Tanggal 17 April Membuat Tampilan layout, logic pindah activity, pengiriman data ke userhome
     */
 
 
